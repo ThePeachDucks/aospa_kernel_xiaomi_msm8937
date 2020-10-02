@@ -924,6 +924,13 @@ gen_headers_out_arm = [
     "asm/swab.h",
     "asm/types.h",
     "asm/unistd.h",
+
+    // Missing headers causing error
+    "media/msm_camsensor_sdk-land.h",
+    "media/msm_camera-land.h",
+    "media/msm_cam_sensor-land.h",
+    "media/msmb_isp-land.h",
+    "media/msmb_camera-land.h",
 ]
 
 genrule {
